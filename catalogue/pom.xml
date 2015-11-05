@@ -9,14 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Book store catalogue</name>
+    <name>Book Store Catalogue</name>
     <description>Microservice responsible for managing the books catalogue</description>
 
     <artifactId>catalogue</artifactId>
-
-    <properties>
-        <kumuluzee.version>1.0.0</kumuluzee.version>
-    </properties>
 
     <dependencies>
         <dependency>

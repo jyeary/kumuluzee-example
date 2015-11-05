@@ -9,14 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Book store models</name>
+    <name>Book Store Models</name>
     <description>Models for the book microservices</description>
 
     <artifactId>models</artifactId>
-
-    <properties>
-        <kumuluzee.version>1.0.0-alpha.1</kumuluzee.version>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -25,9 +21,9 @@
             <version>${kumuluzee.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>9.4-1201-jdbc41</version>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derbyclient</artifactId>
+            <version>10.12.1.1</version>
         </dependency>
     </dependencies>
 

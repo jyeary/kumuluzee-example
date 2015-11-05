@@ -9,14 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Book store orders</name>
+    <name>Book Store Orders</name>
     <description>Microservice responsible for managing the book orders</description>
 
     <artifactId>orders</artifactId>
-
-    <properties>
-        <kumuluzee.version>1.0.0</kumuluzee.version>
-    </properties>
 
     <dependencies>
         <dependency>

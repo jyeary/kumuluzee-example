@@ -13,11 +13,10 @@
         <module>orders</module>
     </modules>
     <packaging>pom</packaging>
-    <name>Book store</name>
+    <name>Book Store</name>
 
     <inceptionYear>2015</inceptionYear>
-    <description>
-        Microservices example with Java EE using the KumuluzEE framework.
+    <description>Microservices example with Java EE using the KumuluzEE framework.
     </description>
 
     <url>https://ee.kumuluz.com</url>
@@ -26,12 +25,13 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <kumuluzee.version>1.0.0-alpha.1</kumuluzee.version>
     </properties>
 
     <scm>
-        <connection>scm:git:git@github.com:TFaga/kumuluzee-example.git</connection>
-        <developerConnection>scm:git:git@github.com:TFaga/kumuluzee-example.git</developerConnection>
-        <url>git@github.com:TFaga/kumuluzee-example.git</url>
+        <connection>scm:git:git@github.com:jyeary/kumuluzee-example.git</connection>
+        <developerConnection>scm:git:git@github.com:jyeary/kumuluzee-example.git</developerConnection>
+        <url>git@github.com:jyeary/kumuluzee-example.git</url>
     </scm>
 
     <issueManagement>
@@ -47,6 +47,18 @@
             <url>https://github.com/TFaga</url>
         </developer>
     </developers>
+    <contributors>
+        <contributor>
+            <name>John Yeary</name>
+            <email>jyeary@bluelotussoftware.com</email>
+            <url>http://javaevangelist.blogspot.com</url>
+            <organization>Blue Lotus Software, LLC.</organization>
+            <timezone>-5</timezone>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </contributor>
+    </contributors>
 
     <licenses>
         <license>
